@@ -1,0 +1,298 @@
+﻿Ren'Py 8.5.3.26051504 lint report, generated at: Wed Sep  2 09:29:06 2026
+
+game/chapter_2_kesempatan.rpy:2 'bg_front_house_morning' is not an image.
+
+game/chapter_2_kesempatan.rpy:3 'audio/soft_melancholy.mp3' is not loadable
+
+game/chapter_2_kesempatan.rpy:138 'bg_school_gate' is not an image.
+
+game/chapter_2_kesempatan.rpy:197 'audio/shoes_tap.mp3' is not loadable
+
+game/chapter_2_kesempatan.rpy:211 'audio/maya_theme.mp3' is not loadable
+
+game/chapter_2_kesempatan.rpy:286 'bg_classroom' is not an image.
+
+game/chapter_2_kesempatan.rpy:287 'audio/school_life.mp3' is not loadable
+
+game/chapter_2_kesempatan.rpy:305 'vina_smile' is not an image.
+
+game/chapter_2_kesempatan.rpy:408 'yuuka_smile' is not an image.
+
+game/chapter_2_kesempatan.rpy:422 'yuuka_sad' is not an image.
+
+game/chapter_2_kesempatan.rpy:443 'audio/school_bell.mp3' is not loadable
+
+game/chapter_2_kesempatan.rpy:456 'yuuka_determined' is not an image.
+
+game/chapter_2_kesempatan.rpy:457 'vina_smile' is not an image.
+
+game/chapter_2_kesempatan.rpy:495 'yuuka_determined' is not an image.
+
+game/chapter_2_kesempatan.rpy:496 'vina_smile' is not an image.
+
+game/chapter_2_kesempatan.rpy:537 'audio/steps_light.mp3' is not loadable
+
+game/chapter_2_kesempatan.rpy:540 'yukie_smile' is not an image.
+
+game/chapter_2_kesempatan.rpy:614 'audio/door_open_bang.mp3' is not loadable
+
+game/chapter_2_kesempatan.rpy:638 'bg_school_corridor' is not an image.
+
+game/chapter_2_kesempatan.rpy:639 'audio/maya_theme.mp3' is not loadable
+
+game/chapter_2_kesempatan.rpy:645 'maya_stern' is not an image.
+
+game/chapter_2_kesempatan.rpy:751 'bg_classroom' is not an image.
+
+game/chapter_2_kesempatan.rpy:752 'audio/afternoon_ambient.mp3' is not loadable
+
+game/chapter_2_kesempatan.rpy:759 'teacher_t_serious' is not an image.
+
+game/chapter_2_kesempatan.rpy:867 'audio/school_bell_long.mp3' is not loadable
+
+game/chapter_2_kesempatan.rpy:878 'bg_council_room_sunset' is not an image.
+
+game/chapter_2_kesempatan.rpy:879 'audio/office_ambience.mp3' is not loadable
+
+game/chapter_2_kesempatan.rpy:885 'maya_stern' is not an image.
+
+game/chapter_2_kesempatan.rpy:886 'vina_smile' is not an image.
+
+game/chapter_2_kesempatan.rpy:887 'yuuka_determined' is not an image.
+
+game/chapter_2_kesempatan.rpy:1068 'audio/door_heavy_open.mp3' is not loadable
+
+game/chapter_2_kesempatan.rpy:1071 'bg_warehouse_dark' is not an image.
+
+game/chapter_2_kesempatan.rpy:1226 'audio/phone_vibrate.mp3' is not loadable
+
+game/chapter_2_kesempatan.rpy:1484 'bg_council_room_sunset' is not an image.
+
+game/chapter_2_kesempatan.rpy:1485 'audio/tension_ambient.mp3' is not loadable
+
+game/chapter_2_kesempatan.rpy:1490 'maya_stern' is not an image.
+
+game/chapter_2_kesempatan.rpy:1491 'vina_smile' is not an image.
+
+game/chapter_2_kesempatan.rpy:1498 'yuuka_sad' is not an image.
+
+game/chapter_2_kesempatan.rpy:1501 'yuuka_determined' is not an image.
+
+game/chapter_2_kesempatan.rpy:1508 'audio/folder_thud.mp3' is not loadable
+
+game/chapter_2_kesempatan.rpy:1540 'audio/table_bang.mp3' is not loadable
+
+game/chapter_2_kesempatan.rpy:1610 'bg_council_room_sunset' is not an image.
+
+game/chapter_2_kesempatan.rpy:1611 'audio/tension_ambient.mp3' is not loadable
+
+game/chapter_2_kesempatan.rpy:1651 'bg_school_corridor_night' is not an image.
+
+game/chapter_2_kesempatan.rpy:1652 'audio/door_close_echo.mp3' is not loadable
+
+game/chapter_2_kesempatan.rpy:1657 'yuuka_sad' is not an image.
+
+game/chapter_2_kesempatan.rpy:1681 'bg_classroom_morning' is not an image.
+
+game/chapter_2_kesempatan.rpy:1682 'audio/school_ambience.mp3' is not loadable
+
+game/chapter_2_kesempatan.rpy:1775 'yuuka_smile' is not an image.
+
+game/chapter_2_kesempatan.rpy:1815 'audio/school_bell.mp3' is not loadable
+
+game/chapter_2_kesempatan.rpy:1828 'yuuka_determined' is not an image.
+
+game/chapter_2_kesempatan.rpy:1829 'vina_smile' is not an image.
+
+game/chapter_2_kesempatan.rpy:1870 'yuuka_determined' is not an image.
+
+game/chapter_2_kesempatan.rpy:1871 'vina_smile' is not an image.
+
+game/chapter_2_kesempatan.rpy:2052 'bg_stairs_to_rooftop' is not an image.
+
+game/chapter_2_kesempatan.rpy:2053 'audio/heavy_breathing.mp3' is not loadable
+
+game/chapter_2_kesempatan.rpy:2059 'audio/door_rattle.mp3' is not loadable
+
+game/chapter_2_kesempatan.rpy:2064 'bg_rooftop_morning' is not an image.
+
+game/chapter_2_kesempatan.rpy:2065 'audio/sad_piano_emotional.mp3' is not loadable
+
+game/chapter_2_kesempatan.rpy:2140 'yuuka_stern' is not an image.
+
+game/chapter_2_kesempatan.rpy:2145 'vina_smile' is not an image.
+
+game/chapter_2_kesempatan.rpy:2231 'audio/school_bell_long.mp3' is not loadable
+
+game/chapter_2_kesempatan.rpy:2265 'bg_school_corridor_afternoon' is not an image.
+
+game/chapter_2_kesempatan.rpy:2266 'audio/tension_ambient.mp3' is not loadable
+
+game/chapter_2_kesempatan.rpy:2277 'yuuka_stern' is not an image.
+
+game/chapter_2_kesempatan.rpy:2278 'shoko_neutral' is not an image.
+
+game/chapter_2_kesempatan.rpy:2334 'audio/box_crash.mp3' is not loadable
+
+game/chapter_2_kesempatan.rpy:2358 'yuuka_blush' is not an image.
+
+game/chapter_2_kesempatan.rpy:2359 'shoko_blush' is not an image.
+
+game/chapter_2_kesempatan.rpy:2417 'audio/door_knock.mp3' is not loadable
+
+game/chapter_2_kesempatan.rpy:2422 'audio/door_open.mp3' is not loadable
+
+game/chapter_2_kesempatan.rpy:2425 'maya_neutral' is not an image.
+
+game/chapter_2_kesempatan.rpy:2624 'shoko_smile' is not an image.
+
+game/chapter_2_kesempatan.rpy:2625 'yukie_smile' is not an image.
+
+game/chapter_2_kesempatan.rpy:2646 'bg_classroom' is not an image.
+
+game/chapter_2_kesempatan.rpy:2647 'audio/school_life.mp3' is not loadable
+
+game/chapter_2_kesempatan.rpy:2665 'vina_smile' is not an image.
+
+game/chapter_2_kesempatan.rpy:2794 'bg_classroom' is not an image.
+
+game/chapter_2_kesempatan.rpy:2795 'audio/tension_ambient.mp3' is not loadable
+
+game/chapter_2_kesempatan.rpy:2809 'audio/door_slide_hard.mp3' is not loadable
+
+game/chapter_2_kesempatan.rpy:2887 'yuuka_smile' is not an image.
+
+game/chapter_2_kesempatan.rpy:2900 'yuuka_sad' is not an image.
+
+game/chapter_2_kesempatan.rpy:2923 'audio/school_bell_long.mp3' is not loadable
+
+game/chapter_2_kesempatan.rpy:2933 'yuuka_neutral' is not an image.
+
+game/chapter_2_kesempatan.rpy:2934 'vina_smile' is not an image.
+
+game/chapter_2_kesempatan.rpy:2999 'bg_club_corridor' is not an image.
+
+game/chapter_2_kesempatan.rpy:3000 'audio/mystery_soft.mp3' is not loadable
+
+game/chapter_2_kesempatan.rpy:3147 'audio/school_bell.mp3' is not loadable
+
+game/chapter_2_kesempatan.rpy:3155 'bg_school_corridor' is not an image.
+
+game/chapter_2_kesempatan.rpy:3156 'audio/tension_ambient.mp3' is not loadable
+
+game/chapter_2_kesempatan.rpy:3162 'audio/bell_chime_soft.mp3' is not loadable
+
+game/chapter_2_kesempatan.rpy:3163 'audio/shoes_tap_fast.mp3' is not loadable
+
+game/chapter_2_kesempatan.rpy:3167 'abby_stern' is not an image.
+
+game/chapter_2_kesempatan.rpy:3192 'bg_classroom' is not an image.
+
+game/chapter_2_kesempatan.rpy:3193 'audio/tension_ambient.mp3' is not loadable
+
+game/chapter_2_kesempatan.rpy:3199 'vina_smile' is not an image.
+
+game/chapter_2_kesempatan.rpy:3205 'yuuka_stern' is not an image.
+
+game/chapter_2_kesempatan.rpy:3232 'audio/door_slide_hard.mp3' is not loadable
+
+game/chapter_2_kesempatan.rpy:3330 'audio/school_bell.mp3' is not loadable
+
+game/chapter_2_kesempatan.rpy:3333 'bg_classroom_sunset' is not an image.
+
+game/chapter_2_kesempatan.rpy:3334 'audio/afternoon_ambient.mp3' is not loadable
+
+game/chapter_2_kesempatan.rpy:3338 'vina_smile' is not an image.
+
+game/chapter_2_kesempatan.rpy:3360 'bg_school_corridor_sunset' is not an image.
+
+game/chapter_2_kesempatan.rpy:3369 'audio/door_open.mp3' is not loadable
+
+game/chapter_2_kesempatan.rpy:3370 'bg_council_room_interior' is not an image.
+
+game/chapter_2_kesempatan.rpy:3377 'audio/clothing_rustle.mp3' is not loadable
+
+game/chapter_2_kesempatan.rpy:3405 'audio/knock_wood.mp3' is not loadable
+
+game/chapter_2_kesempatan.rpy:3410 'maya_shocked' is not an image.
+
+game/chapter_2_kesempatan.rpy:3425 'audio/trashcan_clatter.mp3' is not loadable
+
+game/chapter_2_kesempatan.rpy:3525 'audio/keys_clinking.mp3' is not loadable
+
+game/chapter_2_kesempatan.rpy:3558 'bg_school_corridor_sunset' is not an image.
+
+game/chapter_2_kesempatan.rpy:3559 'audio/tension_walking.mp3' is not loadable
+
+game/chapter_2_kesempatan.rpy:3583 'bg_storage_room_dark' is not an image.
+
+game/chapter_2_kesempatan.rpy:3584 'audio/dust_cough.mp3' is not loadable
+
+game/chapter_2_kesempatan.rpy:3605 'audio/light_switch_stuck.mp3' is not loadable
+
+game/chapter_2_kesempatan.rpy:3609 'audio/light_switch_on.mp3' is not loadable
+
+game/chapter_2_kesempatan.rpy:3611 'white' is not an image.
+
+game/chapter_2_kesempatan.rpy:3612 'bg_storage_room_bright' is not an image.
+
+game/chapter_2_kesempatan.rpy:3670 'audio/paper_creak.mp3' is not loadable
+
+game/chapter_2_kesempatan.rpy:3814 'audio/heavy_door_close.mp3' is not loadable
+
+game/chapter_2_kesempatan.rpy:3905 'bg_council_room_sunset' is not an image.
+
+game/chapter_2_kesempatan.rpy:3906 'audio/tension_ambient.mp3' is not loadable
+
+game/chapter_2_kesempatan.rpy:3995 'bg_council_room_sunset' is not an image.
+
+game/chapter_2_kesempatan.rpy:3996 'audio/office_ambience.mp3' is not loadable
+
+game/chapter_2_kesempatan.rpy:4042 'bg_school_gate_night' is not an image.
+
+game/chapter_2_kesempatan.rpy:4043 'audio/walking_home_theme.mp3' is not loadable
+
+game/chapter_2_main.rpy:2 'bg_mc_room_morning' is not an image.
+
+game/chapter_2_main.rpy:3 'audio/morning_ambient.mp3' is not loadable
+
+game/chapter_2_osis.rpy:80 'bg_classroom_morning' is not an image.
+
+game/chapter_2_osis.rpy:92 'vina_smile' is not an image.
+
+game/chapter_2_osis.rpy:161 'yuuka_smile' is not an image.
+
+game/chapter_2_osis.rpy:174 'yuuka_sad' is not an image.
+
+game/chapter_2_osis.rpy:195 'audio/school_bell.mp3' is not loadable
+
+game/chapter_2_osis.rpy:208 'yuuka_determined' is not an image.
+
+game/chapter_2_osis.rpy:209 'vina_smile' is not an image.
+
+game/chapter_2_osis.rpy:234 'yuuka_determined' is not an image.
+
+game/chapter_2_osis.rpy:235 'vina_smile' is not an image.
+
+game/chapter_2_osis.rpy:348 'audio/door_slide.mp3' is not loadable
+
+game/chapter_2_osis.rpy:349 'bg_lit_club_room' is not an image.
+
+game/chapter_2_osis.rpy:375 'bg_event_flashback' is not an image.
+
+game/chapter_2_osis.rpy:385 'bg_lit_club_room' is not an image.
+
+audio/bgm/静かな記憶.mp3 contains non-ASCII characters in its filename.
+(ZIP file distributions can only reliably include ASCII filenames.)
+
+
+Statistics:
+
+The game contains 5,220 dialogue blocks, containing 42,595 words and 355,664
+characters, for an average of 8.2 words and 68 characters per block.
+
+The game contains 23 menus, 2 images, and 24 screens.
+
+
+Lint is not a substitute for thorough testing. Remember to update Ren'Py
+before releasing. New releases fix bugs and improve compatibility.
