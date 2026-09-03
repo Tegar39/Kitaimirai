@@ -1,6 +1,6 @@
 label chapter_2:
     scene bg_mc_room_morning with fade
-    play music "audio/morning_ambient.mp3" fadein 2.0
+    play music "audio/bgm/opener1.mp3" fadein 2.0
 
     "{cps=35}Alarm berbunyi tepat pukul 06.00. Cahaya matahari menembus celah gorden, memaksa mataku untuk terbuka.{/cps}"
     "{cps=35}Aku terdiam sejenak, menatap langit-langit kamar. Kejadian kemarin... rasanya seperti mimpi buruk yang terlalu nyata.{/cps}"

@@ -192,7 +192,7 @@ label chapter_2_osis:
     
     "{cps=40}Dan tidak terasa sudah waktunya istirahat.{/cps}"
     
-    play sound "audio/school_bell.mp3"
+    play sound "audio/sfx/school bell.mp3"
     t "{cps=40}Baiklah, karena waktunya sudah jam segini, silakan kalian istirahat.{/cps}"
     t "{cps=40}Nanti kita ketemu lagi di jam siang.{/cps}"
     
@@ -345,7 +345,7 @@ label chapter_2_osis:
     sh "{cps=35}Tidak masalah{/cps}"
     "{cps=35}Jawaban [sh] singkat, tapi cukup untuk membuatku masuk ke dalam.{/cps}"
 
-    play sound "audio/door_slide.mp3"
+    play sound "audio/sfx/sliding door.mp3"
     scene bg_lit_club_room with dissolve
 
     yk "{cps=35}Okay... menu hari ini apa kak?{/cps}"

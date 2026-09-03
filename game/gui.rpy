@@ -1,9 +1,10 @@
 ﻿################################################################################
 ## Inisialisasi
 ################################################################################
-define gui.textbox_opacity = 0.75
 init offset = -2
 
+## Memanggil gui.init mereset style ke nilai default, dan menetapkan lebar
+## serta tinggi layar game.
 init python:
     gui.init(1920, 1080)
 
@@ -45,6 +46,7 @@ define gui.game_menu_background = "gui/game_menu.png"
 
 
 ## Dialog ######################################################################
+define gui.textbox_opacity = 0.75
 define gui.textbox_height = 278
 define gui.textbox_yalign = 1.0
 

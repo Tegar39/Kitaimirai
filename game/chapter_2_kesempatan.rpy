@@ -1,6 +1,6 @@
 label chapter_2_kesempatan:
     scene bg_front_house_morning with fade
-    play music "audio/soft_melancholy.mp3" fadein 2.0
+    play music "audio/bgm/last meet.mp3" fadein 2.0
 
     "{cps=35}Aku melangkah keluar dari pagar rumah. Seperti biasa, sosok dengan kacamata itu sudah berdiri di sana, menendang-nendang kerikil kecil dengan sepatunya.{/cps}"
 
@@ -194,7 +194,7 @@ label chapter_2_kesempatan:
 
     "{cps=35}Aku hanya bisa menatap punggung Yuuka yang semakin menjauh di koridor. Perasaan tidak tenang ini masih bergelayut di dadaku.{/cps}"
 
-    play sound "audio/shoes_tap.mp3" # Suara langkah kaki sepatu pantofel yang tegas
+    play sound "audio/sfx/walk.mp3" # Suara langkah kaki sepatu pantofel yang tegas
     "{cps=35}*Tap... Tap... Tap...*{/cps}"
 
     stop music fadeout 1.5
@@ -208,7 +208,7 @@ label chapter_2_kesempatan:
         m "{cps=40}Heee... {w=0.1}. kamu bilang babu sekolah ya...{/cps}"
     elif jujur == False:
         m "{cps=40}Menyedihkan sekali. Ditinggalkan oleh teman masa kecil hanya karena tidak mau cerita{/cps}"
-    play music "audio/maya_theme.mp3" fadein 2.0 # Musik yang lebih formal/tegang
+    play music "audio/bgm/emptyroom.mp3" fadein 2.0 # Musik yang lebih formal/tegang
     
     show maya s05 with dissolve
     "{cps=35}Aku berbalik. Maya berdiri di sana, melipat tangan di dadanya dengan tatapan yang seolah bisa menembus pikiranku.{/cps}"
@@ -284,7 +284,7 @@ label chapter_2_kesempatan:
 
 label chapter_2_osis_kesempatan:
     scene bg_classroom with fade
-    play music "audio/school_life.mp3" fadein 2.0
+    play music "audio/bgm/schoolgate.mp3" fadein 2.0
 
     "{cps=35}Aku melangkah masuk ke kelas dengan napas yang masih sedikit memburu. Suasana kelas pagi ini terasa sangat bising, tipikal kelas yang ditinggal gurunya.{/cps}"
 
@@ -440,7 +440,7 @@ label chapter_2_osis_kesempatan:
     
     "{cps=40}Dan tidak terasa sudah waktunya istirahat.{/cps}"
     
-    play sound "audio/school_bell.mp3"
+    play sound "audio/sfx/school bell.mp3"
     t "{cps=40}Baiklah, karena waktunya sudah jam segini, silakan kalian istirahat.{/cps}"
     t "{cps=40}Nanti kita ketemu lagi di jam siang.{/cps}"
     
@@ -534,7 +534,7 @@ label chapter_2_osis_kesempatan:
     "{cps=40}Kapan ya terakhir kali aku merasakannya...{/cps}"
 
     
-    play sound "audio/steps_light.mp3"
+    play sound "audio/sfx/walk.mp3"
     yk "{cps=60}He-ey! [mc]! Kenapa wajahmu terlihat seperti sedang memikirkan akhir dunia?{/cps}"
 
     show yukie_smile with dissolve
@@ -611,7 +611,7 @@ label chapter_2_osis_kesempatan:
     "{cps=35}Udara di sekitar kami mendadak terasa dingin. Jantungku berdegup kencang.{/cps}"
     mc "{cps=40}Apa maksudmu sepu-{/cps}"
 
-    play sound "audio/door_open_bang.mp3"
+    play sound "audio/sfx/door.mp3"
     g1 "{cps=40}[mc]! {w=0.1} [mc] ada di sini nggak?!{/cps}"
 
     "{cps=35}Suara pintu yang digeser dengan kasar menghancurkan kesunyian di antara kami.{/cps}"
@@ -636,7 +636,7 @@ label chapter_2_osis_kesempatan:
     "{cps=35}Aku melangkah keluar kelas dengan perasaan yang mengganjal. Rahasia tentang janji sepuluh tahun itu kembali tertutup oleh bayang-bayang perintah [m].{/cps}"
 
     scene bg_school_corridor with fade
-    play music "audio/maya_theme.mp3" fadein 2.0
+    play music "audio/bgm/emptyroom.mp3" fadein 2.0
 
     "{cps=35}Aku berjalan menyusuri koridor gedung utama. Suara bising dari kantin terdengar samar di kejauhan, tapi koridor di depan ruang OSIS ini terasa begitu sunyi dan dingin.{/cps}"
 
@@ -749,7 +749,7 @@ label chapter_2_osis_kesempatan:
     mc "{cps=40}Sial, sudah waktunya ya{/cps}"
 
     scene bg_classroom with fade
-    play music "audio/afternoon_ambient.mp3" fadein 2.0
+    play music "audio/bgm/evewalk.mp3" fadein 2.0
 
     "{cps=35}Aku melangkah masuk ke kelas. Udara siang ini terasa sangat gerah, ditambah lagi suasana canggung yang menyelimuti bangkuku dan bangku [y].{/cps}"
 
@@ -864,7 +864,7 @@ label chapter_2_osis_kesempatan:
     scene black with fade
     stop music fadeout 3.0
 
-    play sound "audio/school_bell_long.mp3"
+    play sound "audio/sfx/school bell.mp3"
     "{cps=40}Ting... Tong...{/cps}"
     "{cps=40}Bel pulang akhirnya berbunyi. Murid-murid lain mulai berhamburan keluar dengan riang, tapi aku...{/cps}"
 
@@ -876,7 +876,7 @@ label chapter_2_osis_kesempatan:
 label chapter_2_osis_kfm:
     # Mengatur suasana sore hari yang dramatis
     scene bg_council_room_sunset with fade
-    play music "audio/office_ambience.mp3" fadein 2.0
+    play music "audio/bgm/emptyroom.mp3" fadein 2.0
 
     "{cps=35}Aku berdiri di depan pintu ruang OSIS. Cahaya jingga matahari sore masuk melalui celah jendela koridor, memberikan bayangan panjang yang seolah-olah menarikku masuk ke dalam pusaran masalah baru.{/cps}"
     "{cps=35}Aku menarik napas panjang, merapikan kerah seragamku, lalu mendorong pintu itu perlahan.{/cps}"
@@ -1065,7 +1065,7 @@ label chapter_2_osis_kfm:
     # --- KEMBALI KE NARASI UTAMA ---
     "{cps=35}Tak lama kemudian, kami sampai di depan sebuah pintu besi besar yang sudah sedikit berkarat.{/cps}"
     
-    play sound "audio/door_heavy_open.mp3"
+    play sound "audio/sfx/door.mp3"
     "{cps=35}Suara derit pintu besi yang dibuka paksa memecah kesunyian area belakang sekolah.{/cps}"
     
     scene bg_warehouse_dark with dissolve
@@ -1223,7 +1223,7 @@ label box_accident_scene:
     "{cps=35}Suara derit besi dan gesekan kayu seolah menjadi melodi monoton yang menemani kami selama satu jam terakhir. Punggungku mulai terasa kaku, dan telapak tanganku sudah menghitam karena debu yang menempel.{/cps}"
     "{cps=35}Aku menyeka keringat yang menetes di pelipis. Di dalam gudang yang tertutup ini, sirkulasi udara terasa sangat minim, membuat setiap helai napas terasa lebih berat.{/cps}"
     "{cps=35}Aku melirik ke arah Yuuka. Cahaya matahari yang masuk dari celah atap mulai bergeser, menyinari debu-debu yang beterbangan di sekitarnya. Dia masih tampak tekun, meski sesekali dia memijat bahunya sendiri.{/cps}"
-    play sound "audio/phone_vibrate.mp3"
+    play sound "audio/sfx/phone notif.mp3"
     "{cps=35}Tiba-tiba ponselku bergetar. Sebuah panggilan dari Vina.{/cps}"
     
     mc "{cps=40}Halo, Vin? Ada apa? Kami sedang sibuk di gudang.{/cps}"
@@ -1482,7 +1482,7 @@ label box_accident_scene:
     "{cps=35}Keheningan gudang kini berganti dengan tekad yang baru. Kami berjalan keluar, meninggalkan debu masa lalu, menuju cahaya ruang OSIS yang sudah menunggu dengan sejuta tanya.{/cps}"
 
     scene bg_council_room_sunset with fade
-    play music "audio/tension_ambient.mp3" fadein 2.0
+    play music "audio/bgm/tiptoeing around.mp3" fadein 2.0
 
     "{cps=35}Cahaya oranye matahari sore kini jauh lebih redup, menyisakan bayangan panjang di lantai ruang OSIS yang sunyi.{/cps}"
     "{cps=35}Vina sedang asyik dengan tumpukan kertas, sementara Maya-senpai duduk tenang sambil menatap jendela, seolah sedang menunggu sesuatu.{/cps}"
@@ -1505,7 +1505,7 @@ label box_accident_scene:
 
     "{cps=35}Aku melangkah maju. Tapi alih-alih memberikan daftar audit, aku meletakkan buku yang kusam itu tepat di hadapan Maya-senpai.{/cps}"
 
-    play sound "audio/folder_thud.mp3"
+    play sound "audio/sfx/jatoh.mp3"
     "{b}*BRAK!*{/b}"
 
     mc "{cps=40}Kami menemukan ini di tumpukan paling bawah, Senpai. Terkubur di bawah kardus-kardus yang seharusnya sudah dibuang.{/cps}"
@@ -1537,7 +1537,7 @@ label box_accident_scene:
 
     m "{cps=40}{b}CUKUP!{/b}{/cps}"
 
-    play sound "audio/table_bang.mp3"
+    play sound "audio/sfx/punch.mp3"
     "{cps=35}Maya membentak. Kali ini suaranya bukan hanya marah, tapi ada nada getaran ketakutan yang tertahan. Tangannya yang menekan map itu terlihat gemetar.{/cps}"
 
     m "{cps=40}Kamu tidak tahu apa-apa, [mc]. Kamu hanya melihat ini sebagai 'impian' yang terbuang...{/cps}"
@@ -1608,7 +1608,7 @@ label box_accident_scene:
     # --- KEMBALI KE MASA SEKARANG ---
 
     scene bg_council_room_sunset with dissolve
-    play music "audio/tension_ambient.mp3" fadein 2.0
+    play music "audio/bgm/tiptoeing around.mp3" fadein 2.0
 
     "{cps=35}Maya-senpai mengakhiri ceritanya. Keheningan di ruang OSIS terasa jauh lebih berat dari sebelumnya. Cahaya senja yang masuk lewat jendela seolah-olah menjadi saksi bisu kenangan itu.{/cps}"
 
@@ -1649,7 +1649,7 @@ label box_accident_scene:
     # --- TRANSISI KELUAR RUANGAN ---
 
     scene bg_school_corridor_night with fade
-    play sound "audio/door_close_echo.mp3"
+    play sound "audio/sfx/door.mp3"
 
     "{cps=35}Kami melangkah keluar dari ruang OSIS. Suara pintu yang tertutup di belakang kami menggema di koridor yang kini hanya diterangi lampu-lampu temaram.{/cps}"
     "{cps=35}Buku itu terasa hangat di pelukanku, tapi entah kenapa, beban yang kurasakan jauh lebih berat daripada tumpukan kardus di gudang tadi.{/cps}"
@@ -1679,7 +1679,7 @@ label box_accident_scene:
     
 label chapter_2_sastra_kesempatan:
     scene bg_classroom_morning with fade
-    play music "audio/school_ambience.mp3" fadein 2.0
+    play music "audio/bgm/schoolgate.mp3" fadein 2.0
 
     "{cps=35}Aku duduk di kursiku dengan perasaan campur aduk. Suasana kelas yang biasanya riuh terasa jauh di telingaku.{/cps}"
     "{cps=35}Di depanku, Yuuka sudah duduk diam. Dia tidak menyapaku, tidak juga menoleh. Dia hanya sibuk membolak-balik halaman bukunya dengan gerakan yang kasar.{/cps}"
@@ -1812,7 +1812,7 @@ label chapter_2_sastra_kesempatan:
     
     "{cps=40}Dan tidak terasa sudah waktunya istirahat.{/cps}"
     
-    play sound "audio/school_bell.mp3"
+    play sound "audio/sfx/school bell.mp3"
     t "{cps=40}Baiklah, karena waktunya sudah jam segini, silakan kalian istirahat.{/cps}"
     t "{cps=40}Nanti kita ketemu lagi di jam siang.{/cps}"
     
@@ -2050,19 +2050,19 @@ label chapter_2_sastra_kesempatan:
     "{cps=35}Aku langsung memutar arah dan memacu kakiku menuju tangga paling ujung.{/cps}"
     
     scene bg_stairs_to_rooftop with fade
-    play sound "audio/heavy_breathing.mp3" # SFX napas tersengal
+    play sound "audio/sfx/breathing.mp3" # SFX napas tersengal
 
     "{cps=35}Hah... hah...{/cps}"
     "{cps=35}Pikiran buruk mulai memenuhi kepalaku. Loteng selalu dikunci karena pagar pengamannya sudah tua dan berbahaya.{/cps}"
     "{cps=35}Kenapa dia memilih tempat sesunyi itu?{/cps}"
 
-    play sound "audio/door_rattle.mp3" # Suara pintu digoyang
+    play sound "audio/sfx/door.mp3" # Suara pintu digoyang
     "{cps=35}*Kriet...*{/cps}"
     
     "{cps=35}Pintunya... tidak terkunci?{/cps}"
 
     scene bg_rooftop_morning with fade
-    play music "audio/sad_piano_emotional.mp3" fadein 2.0
+    play music "audio/bgm/last bridge.mp3" fadein 2.0
 
     "{cps=35}Begitu aku membuka pintu, angin kencang langsung menerpa wajahku. Di sana, di dekat pagar pembatas, aku melihat punggung kecil yang bergetar itu.{/cps}"
     mc "{cps=35}[sh]...{/cps}"
@@ -2228,7 +2228,7 @@ label chapter_2_sastra_kesempatan:
     scene black with fade
     stop music fadeout 3.0
 
-    play sound "audio/school_bell_long.mp3"
+    play sound "audio/sfx/school bell.mp3"
     "{cps=40}Ting... Tong...{/cps}"
     "{cps=40}Bel pulang akhirnya berbunyi{/cps}"
     t "{cps=40}Baiklah, pelajaran hari ini saya akhiri sampai di sini. Jangan lupa pelajari bab selanjutnya tentang 'Konsekuensi dari Sebuah Pilihan'.{/cps}"
@@ -2263,7 +2263,7 @@ label chapter_2_sastra_kesempatan:
     # --- PERJALANAN ---
 
     scene bg_school_corridor_afternoon with fade
-    play music "audio/tension_ambient.mp3" fadein 2.0
+    play music "audio/bgm/tiptoeing around.mp3" fadein 2.0
 
     "{cps=35}Kami berlima berjalan menyusuri koridor menuju gedung aula. Posisinya benar-benar canggung.{/cps}"
     "{cps=35}[v] dan [yk] di depan, sementara aku berjalan di tengah, 'dikawal' oleh [sh] di sisi kiri dan [y] di sisi kanan.{/cps}"
@@ -2331,7 +2331,7 @@ label chapter_2_sastra_kesempatan:
     "{cps=35}Tanpa pikir panjang, aku menerjang ke arah mereka. Rak tua di atas mereka berderit keras, dan kardus-kardus besar itu meluncur turun dengan cepat.{/cps}"
 
     with vpunch
-    play sound "audio/box_crash.mp3"
+    play sound "audio/sfx/jatoh.mp3"
     "{b}*BRAAAK!*{/b}"
 
     "{cps=35}Debu tebal seketika memenuhi udara, membuatku terbatuk-batuk. Aku merasakan tubuhku menghantam lantai kayu yang keras, rasa sakit menjalar di punggungku.{/cps}"
@@ -2414,12 +2414,12 @@ label chapter_2_sastra_kesempatan:
     stop music fadeout 2.0
     "{cps=35}Langkah kaki kami bergema di koridor yang sepi. Matahari sore masuk melalui jendela, memberikan warna oranye yang tajam pada pintu ruang OSIS.{/cps}"
 
-    play sound "audio/door_knock.mp3"
+    play sound "audio/sfx/knock door.mp3"
     "{b}*Tok! Tok! Tok!*{/b}"
 
     mc "{cps=35}Permisi...{/cps}"
 
-    play sound "audio/door_open.mp3"
+    play sound "audio/sfx/door.mp3"
     "{cps=35}Begitu pintu terbuka, aroma teh melati dan kertas baru menyambut kami. Di balik meja besar itu, Maya-senpai sudah duduk dengan posisi yang sangat tegak.{/cps}"
 
     show maya_neutral at center with dissolve
@@ -2644,7 +2644,7 @@ label chapter_2_sastra_kesempatan:
 
 label chapter_2_solo:
     scene bg_classroom with fade
-    play music "audio/school_life.mp3" fadein 2.0
+    play music "audio/bgm/schoolgate.mp3" fadein 2.0
 
     "{cps=35}Aku melangkah masuk ke kelas dengan napas yang masih sedikit memburu. Suasana kelas pagi ini terasa sangat bising, tipikal kelas yang ditinggal gurunya.{/cps}"
 
@@ -2792,7 +2792,7 @@ label chapter_2_solo:
     "{cps=35}Aku harus bertemu dengannya nanti{/cps}"
 
     scene bg_classroom with fade
-    play music "audio/tension_ambient.mp3" fadein 2.0
+    play music "audio/bgm/tiptoeing around.mp3" fadein 2.0
 
     "{cps=35}Langkah kakiku terasa berat saat memasuki kelas. Suara gesekan kursi dan gumaman murid-murid lain seolah menjadi hakim atas kepergianku yang tiba-tiba tadi.{/cps}"
 
@@ -2806,7 +2806,7 @@ label chapter_2_solo:
 
     "{cps=35}Aku hanya bisa menatap nanar ke arah papan tulis yang masih bersih. Di kepalaku, kalimat Fumi terus berputar: 'Adik dari Kisaragi Sayoko'. Bagaimana mungkin seorang idol itu punya hubungan darah dengan seniorku?{/cps}"
 
-    play sound "audio/door_slide_hard.mp3"
+    play sound "audio/sfx/sliding door.mp3"
     "{cps=35}*SRAAAK!*{/cps}"
 
     "{cps=35}[t] melangkah masuk dengan aura yang sanggup membekukan seisi ruangan. Beliau tidak membawa tas, hanya setumpuk buku tebal dan sebatang kapur yang digenggam kuat.{/cps}"
@@ -2920,7 +2920,7 @@ label chapter_2_solo:
     "{cps=35}Aku melirik ke arah [y]. Punggungnya tegak, fokusnya seolah tak tergoyahkan.{/cps}"
     "{cps=35}Namun sepertinya dia masih sedikit kesal dengan pilihanku tadi.{/cps}"
     "{cps=35}Ya... mau gimana lagi. Pilihanku sudah bulat{/cps}"
-    play sound "audio/school_bell_long.mp3"
+    play sound "audio/sfx/school bell.mp3"
     "{cps=40}*Ting... Tong... Ting... Tong...*{/cps}"
 
     t "{cps=40}Cukup untuk jam ini. Pekerjaan rumah kalian adalah mengerjakan latihan halaman 45 sebagai pendalaman.{/cps}"
@@ -2997,7 +2997,7 @@ label chapter_2_solo:
     "{cps=35}Aku pun mengikuti [yk] menuju ke ruang klub sastra{/cps}"
 
     scene bg_club_corridor with fade
-    play music "audio/mystery_soft.mp3" fadein 2.0
+    play music "audio/bgm/whisper good.mp3" fadein 2.0
 
     "{cps=35}Aku berjalan di belakang [yk]. Berbeda dengan [y] yang langkahnya selalu terburu-buru, [yk] melangkah dengan sangat ringan, seolah dia sedang menari di atas lantai koridor ini.{/cps}"
 
@@ -3144,7 +3144,7 @@ label chapter_2_solo:
     f "{cps=35}Dan jangan lupa, [mc]. 'Servis' dariku tetap berlaku kalau kamu bosan dengan aturan kaku Maya. Fufufu.{/cps}"
     sh "{cps=35}...{/cps}"
     "{cps=35}[sh] menatap buku itu dengan tatapan dingin, lalu beralih menatapku. Seolah dia ingin mengatakan sesuatu, tapi tertahan oleh kehadiran [m]{/cps}"
-    play sound "audio/school_bell.mp3"
+    play sound "audio/sfx/school bell.mp3"
     "{cps=40}*Ting... Tong... Ting... Tong...*{/cps}"
 
     m "{cps=35}Waktu istirahat sudah habis. Kembalilah ke kelas. Ingat, [mc], statusmu sekarang adalah 'Volunteer Terawasi'. Jangan sampai aku mendengar laporan buruk tentangmu.{/cps}"
@@ -3153,14 +3153,14 @@ label chapter_2_solo:
 
     "{cps=35}Aku mengambil buku itu. Rasanya lebih berat daripada kelihatannya. Aku segera berpamitan dan melangkah keluar dari ruangan yang penuh dengan aroma persaingan itu.{/cps}"
     scene bg_school_corridor with fade
-    play music "audio/tension_ambient.mp3" fadein 2.0
+    play music "audio/bgm/tiptoeing around.mp3" fadein 2.0
 
     "{cps=35}Aku berjalan menyusuri koridor. Pikiranku berkecamuk. Volunteer? Arsip kesiswaan? Dan siapa 'anggota' yang dimaksud Maya untuk membantuku?{/cps}"
     mc "{cps=35}Hah... sepertinya aku baru saja menukar kebebasanku dengan ini...{/cps}"
     mc "{cps=35}Tidak masalah lah, daripada nanti kehidupanku terlalu biasa{/cps}"
     "{cps=35}Aku ingin kembali ke kehidupan normalku{/cps}"
-    play sound "audio/bell_chime_soft.mp3"
-    play sound "audio/shoes_tap_fast.mp3"
+    play sound "audio/sfx/sfxbell.mp3"
+    play sound "audio/sfx/walk.mp3"
     "{cps=35}*Tap. Tap. Tap.*{/cps}"
     
     "{cps=35}Langkah kaki yang tegas berhenti tepat di depanku. Aku mendongak dan melihat seorang siswi berdiri mematung di tengah jalan, menghalangi jalurku sepenuhnya.{/cps}"
@@ -3190,7 +3190,7 @@ label chapter_2_solo:
     ab "{cps=35}Awas saja kamu, [mc]...{/cps}"
     ab "{cps=35}Aku tidak terima dengan penghinaan ini...{/cps}"
     scene bg_classroom with fade
-    play music "audio/tension_ambient.mp3" fadein 2.0
+    play music "audio/bgm/tiptoeing around.mp3" fadein 2.0
 
     "{cps=35}Aku melangkah masuk ke kelas tepat saat bel jam pelajaran Sejarah berhenti bergema. Napasku sedikit memburu, bukan karena lelah, tapi karena rasa sesak yang aneh di dadaku.{/cps}"
 
@@ -3229,7 +3229,7 @@ label chapter_2_solo:
     yk "{cps=35}Baik{/cps}"
     "{cps=35}Suasana kelas mendadak hening total. Hanya ada suara gesekan kursi yang ditarik dan bunyi detak jam dinding yang entah kenapa terdengar lebih keras dari biasanya.{/cps}"
 
-    play sound "audio/door_slide_hard.mp3"
+    play sound "audio/sfx/sliding door.mp3"
     "{cps=35}*SRAAAK!*{/cps}"
 
     "{cps=35}Pintu depan terbuka lebar. [t] masuk dengan langkah yang sanggup membuat murid paling berisik sekalipun langsung tegak duduknya. Beliau membawa setumpuk buku yang diletakkan di meja dengan dentuman pelan.{/cps}"
@@ -3327,11 +3327,11 @@ label chapter_2_solo:
 
     "{cps=35}Dua jam yang penuh siksaan mental itu akhirnya berakhir seiring bunyi bel pulang.{/cps}"
 
-    play sound "audio/school_bell.mp3"
+    play sound "audio/sfx/school bell.mp3"
     "{cps=40}*Ting... Tong... Ting... Tong...*{/cps}"
 
     scene bg_classroom_sunset with fade
-    play music "audio/afternoon_ambient.mp3" fadein 2.0
+    play music "audio/bgm/evewalk.mp3" fadein 2.0
 
     "{cps=35}Warna oranye matahari senja menembus jendela kelas, menciptakan bayangan panjang di lantai. Suasana yang seharusnya romantis ini justru terasa sangat canggung.{/cps}"
 
@@ -3366,7 +3366,7 @@ label chapter_2_solo:
     mc "{cps=35}Halo? Permisi?{/cps}"
 
     "{cps=35}Tidak ada jawaban. Aku mendorong pintunya perlahan. Suara engsel pintu yang berderit pelan seolah memperingatiku untuk tidak masuk, tapi aku butuh daftar audit itu sekarang.{/cps}"
-    play sound "audio/door_open.mp3"
+    play sound "audio/sfx/door.mp3"
     scene bg_council_room_interior with dissolve
     "{cps=35}Ruangan itu sunyi. Harum aroma teh melati dan kertas baru memenuhi udara. Aku melangkah mendekati meja besar di tengah ruangan, mencari tumpukan kertas yang dimaksud Vina.{/cps}"
 
@@ -3374,7 +3374,7 @@ label chapter_2_solo:
 
     "{cps=35}Aku berjalan ke arah meja di sudut ruangan. Namun, langkahku mendadak membeku saat mendengar suara kain yang bergesekan dari balik sekat lemari arsip.{/cps}"
 
-    play sound "audio/clothing_rustle.mp3"
+    play sound "audio/sfx/book.mp3"
     "???" "{cps=40}Ugh... kenapa susah sekali dilepas...{/cps}"
 
     mc "{cps=35}Suara itu... bukannya suara kak [m]?{/cps}"
@@ -3402,7 +3402,7 @@ label chapter_2_solo:
             "{cps=35}Sebagai pria harus berperilaku jujur, apapun yang terjadi{/cps}"
             "{cps=35}Meski akan dibenci{/cps}"
             "{cps=35}Aku kembali mengetuk lemari yang ada di depanku{/cps}"
-            play sound "audio/knock_wood.mp3"
+            play sound "audio/sfx/knock door.mp3"
             mc "{cps=40}Permisi...{/cps}"
             m "{cps=35}Hm?{/cps}"
             "{cps=35}[m] terlihat sedikit bingung{/cps}"
@@ -3422,7 +3422,7 @@ label chapter_2_solo:
             $ trobos = False
             $ maya_rel -= 3
             "{cps=35}Aku mencoba melangkah mundur dengan sangat pelan. Tapi malangnya, kakiku menyenggol sebuah tempat sampah besi.{/cps}"
-            play sound "audio/trashcan_clatter.mp3"
+            play sound "audio/sfx/jatoh.mp3"
             "{cps=35}*PRANG!*{/cps}"
             ab "{cps=40}Siapa itu?!{/cps}"
             m "{cps=35}[ab], coba kamu cek{/cps}"
@@ -3522,7 +3522,7 @@ label chapter_2_solo:
     ab "{cps=35}Uhhm...{/cps}"
     "{cps=35}[ab] menatapku dengan tatapan yang sangat tajam, tapi kali ini ada sedikit rona merah di pipinya yang tidak bisa dia sembunyikan.{/cps}"
     m "{cps=35}Nah, [mc]. Ini daftar barang yang harus diaudit. Dan ini kunci gudang penyimpanan basement.{/cps}"
-    play sound "audio/keys_clinking.mp3"
+    play sound "audio/sfx/cling.mp3"
     "{cps=35}Maya menyerahkan seikat kunci berat dan sebuah buku audit kepadaku.{/cps}"
     mc "{cps=35}Hmmm.... sepertinya tidak terlalu banyak{/cps}"
     m "{cps=35}Sebaiknya kamu jangan menyepelekan sesuatu hal{/cps}"
@@ -3556,7 +3556,7 @@ label chapter_2_solo:
     mc "{cps=35}Jadi, kita kemana?{/cps}"
     ab "{cps=35}Kamu gausah banyak ngomong, cukup ikuti aku{/cps}"
     scene bg_school_corridor_sunset with fade
-    play music "audio/tension_walking.mp3" fadein 2.0
+    play music "audio/bgm/evewalk.mp3" fadein 2.0
 
     "{cps=35}Aku berjalan di belakang [ab]. Suara denting lonceng di lehernya terdengar setiap kali dia melangkah dengan cepat. Dia tampak sangat terburu-buru, mungkin karena malu.{/cps}"
 
@@ -3581,7 +3581,7 @@ label chapter_2_solo:
     "{cps=35}Aku membuka pintunya{/cps}"
     "{cps=35}Ruangan itu penuh sekali dengan debu{/cps}"
     scene bg_storage_room_dark with fade
-    play sound "audio/dust_cough.mp3"
+    play sound "audio/sfx/breathing.mp3"
     "{cps=35}*Uhuk! Uhuk!*{/cps}"
     mc "{cps=35}Debunya tebal sekali... Sepertinya tempat ini tidak pernah disentuh selama bertahun-tahun.{/cps}"
     ab "{cps=35}Tentu saja. Ini gudang arsip lama dan barang-barang yang sudah tidak terpakai.{/cps}"
@@ -3602,11 +3602,11 @@ label chapter_2_solo:
     ab "{cps=35}BERISIK!{/cps}"
     mc "{cps=35}Iya, iya. Galak amat...{/cps}"
     "{cps=35}Aku meraba-raba dinding di dekat pintu, mencari sakelar yang dimaksud.{/cps}"
-    play sound "audio/light_switch_stuck.mp3" # Suara sakelar agak macet
+    play sound "audio/sfx/lamp.mp3" # Suara sakelar agak macet
     "{cps=35}*Klik... Klik...*{/cps}"
     mc "{cps=35}Kok nggak nyala?{/cps}"
     ab "{cps=35}Tekan yang keras! Sakelarnya memang agak rewel.{/cps}"
-    play sound "audio/light_switch_on.mp3"
+    play sound "audio/sfx/lamp.mp3"
     # Gunakan efek flash putih singkat sebelum ganti background
     show white with flash
     scene bg_storage_room_bright with dissolve
@@ -3667,7 +3667,7 @@ label chapter_2_solo:
     mc "{cps=35}Iya..{/cps}"
     "{cps=35}[ab] terdiam. Wajah galaknya sedikit melunak, berganti dengan tatapan penuh selidik ke arah buku di tanganku.{/cps}"
     ab "{cps=35}Coba buka... pelan-pelan. Kertasnya sudah sangat rapuh.{/cps}"
-    play sound "audio/paper_creak.mp3"
+    play sound "audio/sfx/paper.mp3"
     "{cps=35}Aku membuka lembaran pertama dengan hati-hati. Aroma kertas tua yang khas langsung tercium, bercampur dengan bau debu ruangan.{/cps}"
     mc "{cps=35}**'Proposal Festival Budaya Gabungan - Penanggung Jawab: Ikazaki [mi]'**.{/cps}"
     mc "{cps=35}Tahunnya... 10 tahun yang lalu.{/cps}"
@@ -3811,7 +3811,7 @@ label chapter_2_solo:
     ab "{cps=35}Sudahlah, ayo kita bawa{/cps}"
     ab "{cps=35}Jangan lupa kunci ruangannya{/cps}"
     mc "{cps=35}Baik{/cps}"
-    play sound "audio/heavy_door_close.mp3"
+    play sound "audio/sfx/door.mp3"
     "{cps=35}Aku memutar kunci gudang itu. Suara gerendel besi yang mengunci seolah menandakan berakhirnya petualangan singkat kami di dalam kegelapan yang berdebu.{/cps}"
     ab "{cps=35}Sip, ayo kita berangkat{/cps}"
     "{cps=35}Hari yang melelahkan ini sepertinya akan berakhir{/cps}"
@@ -3903,7 +3903,7 @@ label chapter_2_solo:
     mi "{cps=35}Aman kalau itumah{/cps}"
     "{cps=35}Wajah [mi] memandang ke kakakku dengan penuh harapan{/cps}"
     scene bg_council_room_sunset with dissolve
-    play music "audio/tension_ambient.mp3" fadein 2.0
+    play music "audio/bgm/tiptoeing around.mp3" fadein 2.0
     "{cps=35}Maya-senpai mengakhiri ceritanya. Keheningan di ruang OSIS terasa jauh lebih berat dari sebelumnya. Cahaya senja yang masuk lewat jendela seolah-olah menjadi saksi bisu kenangan itu.{/cps}"
     m "{cps=40}Namun... prediksi kakakmu benar sekaligus salah.{/cps}"
     mc "{cps=40}Apa maksudmu, Senpai? Sekolah ini akhirnya memang menerima laki-laki, kan?{/cps}"
@@ -3993,7 +3993,7 @@ label chapter_2_solo:
     ab "{cps=35}Ketua tadi sampai terlihat sedikit... cemas.{/cps}"
     mc "{cps=35}Maaf. Aku janji tidak akan begitu lagi.{/cps}"
     scene bg_council_room_sunset with dissolve
-    play music "audio/office_ambience.mp3" fadein 1.0
+    play music "audio/bgm/emptyroom.mp3" fadein 1.0
     "{cps=35}Begitu pintu terbuka, aku melihat kak [m] masih duduk di posisi yang sama. Dia menatapku, dan kali ini senyumnya terasa lebih tulus, seolah dia sudah tahu apa jawabanku.{/cps}"
     m "{cps=35}Sudah merasa lebih baik, [mc]?{/cps}"
     mc "{cps=35}Sudah, Kak. Maaf tadi aku tiba-tiba keluar.{/cps}"
@@ -4040,7 +4040,7 @@ label chapter_2_solo:
     mc "{cps=35}E-eh? Iya...{/cps}"
     "{cps=35}Dia langsung berjalan mendahuluiku dengan langkah cepat, mungkin untuk menutupi rasa malunya.{/cps}"
     scene bg_school_gate_night with fade 
-    play music "audio/walking_home_theme.mp3" fadein 2.0
+    play music "audio/bgm/gohome.mp3" fadein 2.0
     "{cps=35}Angin malam berhembus pelan saat aku melangkah keluar dari gerbang sekolah. Suasana sangat sunyi, hanya terdengar suara langkah kakiku.{/cps}"
     "{cps=35}Dari kejauhan terlihat ada yang menunggu diriku{/cps}"
     "{cps=35}Dan sepertinya dia terlihat kesal{/cps}"

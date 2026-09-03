@@ -708,7 +708,7 @@ label prolog:
     show bg event 0_85 with dissolve
     "{cps=35}Meskipun kaki ini terasa sangat berat... {w=0.1} aku tidak punya pilihan lain.{/cps}"
     stop audio
-    play music "audio/bgm/静かな記憶.mp3" fadein 0.5 volume 0.6
+    play music "audio/bgm/seikana_kioku.mp3" fadein 0.5 volume 0.6
     show bg event 0_86 with dissolve
     g4 "{cps=20}Ah.....{/cps}"
     show bg event 0_85 with dissolve

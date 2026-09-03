@@ -24,3 +24,7 @@
 /dialogue.tab
 /dialogue.txt
 /strings.json
+
+# Video backup & ffmpeg temporary files.
+/game/movies/*_backup.webm
+/game/movies/ffmpeg2pass-*.log
