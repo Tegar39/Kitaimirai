@@ -518,11 +518,105 @@ label chapter_2_osis:
     "{cps=35}Yee...{/cps}"
     "{cps=35}Ah sial, sudah bel{/cps}"
     "{cps=35}[v] langsung kembali ke tempat duduknya{/cps}"
+    
+    "{cps=35}Sosok yang tadi pagi menghukumku di depan kelas kini muncul lagi. Di sekolah ini, [t] memang dikenal sebagai guru 'serba bisa' yang memegang jadwal padat.{/cps}"
+
+    t "{cps=40}Letakkan gadget kalian. Meskipun ini jam siang yang rawan kantuk, materi kita sekarang jauh lebih berat dari matematika tadi pagi.{/cps}"
+
+    t "{cps=40}Buka buku Sejarah kalian. Kita akan membahas tentang 'Tragedi dan Pengkhianatan' dalam sejarah pergerakan organisasi.{/cps}"
+
+    "{cps=35}Aku tersentak. Kenapa materi siang ini terasa seperti sedang menyindir kondisiku sekarang?{/cps}"
+
+    t "{cps=40}Dalam sejarah, banyak tokoh besar yang jatuh bukan karena musuh dari luar, tapi karena rusaknya 'Kepercayaan' dari orang terdekatnya.{/cps}"
+    
+    # Elemen Ilmu Pengetahuan
+    t "{cps=40}Ada sebuah istilah Latin: {b}'Falsus in Uno, Falsus in Omnibus'{/b}. Ada yang tahu artinya?{/cps}"
+
+    "{cps=35}Kelas sunyi. Aku melirik [y], dia sedang mencatat dengan sangat cepat, seolah-olah berusaha mengabaikan keberadaanku di belakangnya.{/cps}"
+    "{cps=40}Seperti biasa, dia selalu saja fokus{/cps}"
+    "{cps=40}Berbeda denganku...{/cps}"
+
+    t "{cps=40}[mc], coba kamu jawab. Kamu sepertinya sedang banyak pikiran siang ini.{/cps}"
+    mc "{cps=40}Kok saya sih [t]?{/cps}"
+    t "{cps=40}Memangnya yang cocok selain kamu siapa lagi?{/cps}"
+    mc "{cps=40}Kan ada...{/cps}"
+    "{cps=40}Aku memperhatikan kelas{/cps}"
+    "{cps=40}Namun reaksi mereka tidak menunjukan tanda-tanda ingin menjawab{/cps}"
+    t "{cps=40}Ada apa?{/cps}"
+    mc "{cps=40}Tidak bu...{/cps}"
+    t "{cps=40}Kalau tidak ada cepat jawab{/cps}"
+    mc"{cps=40}Ummm...{/cps}"
+
+    menu:
+        "Satu kebohongan merusak semuanya":
+            $ correct_answer_2 = True
+            mc "{cps=40}Artinya... sekali berbohong dalam satu hal, maka seluruh perkataannya akan dianggap bohong, Pak/Bu.{/cps}"
+            #(BEBAS MAU DIAPAIN AE)
+            t "{cps=40}Tepat. Itulah hukum moral yang sering kali lebih kejam daripada hukum tertulis.{/cps}"
+            t "{cps=40}Sekali kamu merusak kepercayaan, butuh waktu seumur hidup untuk membangunnya kembali.{/cps}"
+
+        "Kesalahan satu orang ditanggung semua":
+            $ correct_answer_2 = False
+            mc "{cps=40}Artinya kesalahan satu orang adalah kesalahan semua anggota kelompok?{/cps}"
+            
+            t "{cps=40}Salah. Itu namanya tanggung renteng. Fokus kita adalah integritas individu.{/cps}"
+            t "{cps=40}Sepertinya kamu harus lebih banyak membaca daripada sekadar melamun, [mc].{/cps}"
+            
+            v "{cps=40}Fufufu... Sepertinya otak [mc] sudah mulai berasap karena pelajaran pagi tadi.{/cps}"
+            v "{cps=40}Hati-hati, [mc]. Kalau kamu terlalu sering melamun, nanti 'integritasmu' dipetik orang lain lho.{/cps}"
+            
+            mc "{cps=40}(Sial... Vina selalu saja tahu celah untuk menyindirku. Adakah hal di sekolah ini yang dia tidak tahu?){/cps}"
+
+    t "{cps=40}Sekali kamu merusak kepercayaan, butuh waktu seumur hidup untuk membangunnya kembali.{/cps}"
+    
+    "{cps=35}Yuuka menghentikan catatannya sesaat. Bahunya sedikit bergetar, tangannya menggenggam pena dengan sangat erat sampai buku jarinya memutih.{/cps}"
+    "{cps=35}Aku tahu dia mendengarkan setiap kata itu. Dan aku tahu, kata-kata Nanami-sensei sedang menghujam tepat di tengah-tengah kecanggungan kami.{/cps}"
+
+    "{cps=35}Nanami-sensei kembali ke papan tulis, kapur di tangannya berderit keras saat beliau menuliskan daftar nama-nama pengkhianat besar dalam sejarah.{/cps}"
+    "{cps=35}Suasana kelas menjadi sangat berat. Hanya ada suara gesekan pena di atas kertas dan detak jam dinding yang seolah melambat secara sengaja.{/cps}"
+
+    "{cps=35}Satu jam berlalu...{/cps}"
+    "{cps=35}Sinar matahari siang yang menyengat perlahan mulai bergeser, menciptakan bayangan panjang dari kaki meja yang menembus lantai kayu kelas.{/cps}"
+    "{cps=35}Beberapa teman sekelasku mulai terlihat mengantuk, kepala mereka terkantuk-kantuk mengikuti irama suara Nanami-sensei yang monoton namun tajam.{/cps}"
+    
+    "{cps=35}Suara [t] yang menjelaskan tentang runtuhnya kerajaan-kerajaan besar akibat pengkhianatan internal terasa seperti bisikan yang menghakimi setiap helai napasku.{/cps}"
+
+    "{cps=35}Aku melirik ke depan. [y] masih tetap pada posisinya. Dia tidak pernah sekalipun melirik ke arahku, bahkan saat dia mengambil penggaris atau merapikan rambutnya.{/cps}"
+
+    "{cps=35}Dua jam berlalu...{/cps}"
+    "{cps=35}Waktu benar-benar terasa abadi. Kakiku terasa kaku, dan pikiranku mulai melayang pada Shoko, pada Maya, dan pada armband perak yang kini menempel di bahuku.{/cps}"
+    "{cps=35}Setiap detik yang kami lalui dalam diam ini terasa lebih menyakitkan daripada hukuman berdiri di depan kelas tadi pagi.{/cps}"
+    
+    "{cps=35}Dinding es yang dibangun [y] di sebelahku terasa semakin tebal. Aku ingin bicara, tapi tenggorokanku terasa terkunci oleh beban rahasia dan pilihan yang baru saja kuambil.{/cps}"
+    "{cps=35}Kehadiranku di sini... di belakangnya... seolah-olah sudah dihapus sepenuhnya dari dunia kecilnya.{/cps}"
+
+    scene black with fade
+    #MULAI DISINI TULIS AE KETEMU MONICA ATAU SIAPALAH BEBAS
     "{cps=35}{/cps}"
     "{cps=35}{/cps}"
     "{cps=35}{/cps}"
     "{cps=35}{/cps}"
     "{cps=35}{/cps}"
+
+    #DISINI ITU MC KE RUANG OSIS, LANJUTIN ALURNYA WOK
+    "{cps=35}Aku berdiri di depan pintu ruang OSIS. Cahaya jingga matahari sore masuk melalui celah jendela koridor, memberikan bayangan panjang yang seolah-olah menarikku masuk ke dalam pusaran masalah baru.{/cps}"
+    "{cps=35}Aku menarik napas panjang, merapikan kerah seragamku, lalu mendorong pintu itu perlahan.{/cps}"
+    show maya_stern at center
+    show vina_smile at right
+    show yuuka_determined at left
+    with dissolve
+
+    m "{cps=40}Akhirnya kamu sampai sini juga.{/cps}"
+    
     "{cps=35}{/cps}"
     "{cps=35}{/cps}"
     "{cps=35}{/cps}"
+    
+    #YANG PASTI ENDING CHAPTER 2 OSIS GINI
+    "{cps=35}Kami meninggalkan ruang OSIS saat lampu koridor mulai menyala satu per satu. Map biru itu masih ada di genggamanku, terasa jauh lebih hangat... dan jauh lebih berat.{/cps}"
+
+    "{cps=35}Rahasia sekolah, kematian kakakku, dan janji Maya-senpai. Semuanya kini berpindah ke pundakku.{/cps}"
+
+    scene black with fade
+    stop music fadeout 2.0
+    jump chapter_2_end
