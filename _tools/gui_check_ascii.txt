@@ -1,0 +1,62 @@
+gui.* yang dipakai di screens.rpy: 84
+gui.* yang didefinisikan di gui.rpy: 132
+
+[MASALAH] gui.* DIPAKAI tapi TIDAK didefinisikan:
+   - gui.about
+   - gui.history_allow_tags
+   - gui.show_name
+
+[INFO] gui.* didefinisikan tapi tidak dipakai di screens.rpy (kemungkinan dipakai layout lain):
+   - gui.button_borders
+   - gui.button_height
+   - gui.button_text_font
+   - gui.button_text_hover_color
+   - gui.button_text_idle_color
+   - gui.button_text_insensitive_color
+   - gui.button_text_selected_color
+   - gui.button_text_size
+   - gui.button_text_xalign
+   - gui.button_tile
+   - gui.button_width
+   - gui.check_button_borders
+   - gui.choice_button_borders
+   - gui.choice_button_height
+   - gui.choice_button_text_font
+   - gui.choice_button_text_hover_color
+   - gui.choice_button_text_idle_color
+   - gui.choice_button_text_insensitive_color
+   - gui.choice_button_text_size
+   - gui.choice_button_text_xalign
+   - gui.choice_button_tile
+   - gui.choice_button_width
+   - gui.confirm_button_text_xalign
+   - gui.hover_muted_color
+   - gui.idle_color
+   - gui.idle_small_color
+   - gui.insensitive_color
+   - gui.interface_text_color
+   - gui.interface_text_font
+   - gui.interface_text_size
+   - gui.main_menu_text_xalign
+   - gui.muted_color
+   - gui.name_text_font
+   - gui.name_text_size
+   - gui.nvl_button_width
+   - gui.page_button_borders
+   - gui.quick_button_borders
+   - gui.quick_button_text_idle_color
+   - gui.quick_button_text_selected_color
+   - gui.quick_button_text_size
+   - gui.radio_button_borders
+   - gui.selected_color
+   - gui.slot_button_borders
+   - gui.slot_button_height
+   - gui.slot_button_text_idle_color
+   - gui.slot_button_text_selected_hover_color
+   - gui.slot_button_text_selected_idle_color
+   - gui.slot_button_text_size
+   - gui.slot_button_text_xalign
+   - gui.slot_button_width
+   - gui.text_color
+   - gui.text_font
+   - gui.title_text_size
